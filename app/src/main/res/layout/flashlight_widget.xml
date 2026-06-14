@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:background="@drawable/widget_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/widget_state_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AUS"
+            android:textColor="#0D1220"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="3dp"
+            android:background="@drawable/widget_badge_off" />
+
+        <LinearLayout
+            android:id="@+id/widget_toggle_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/widget_toggle_background"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔦"
+                android:textSize="28sp"
+                android:paddingBottom="0dp" />
+
+            <TextView
+                android:id="@+id/widget_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Licht aus"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/widget_action_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Tippen"
+                android:textColor="#C8D3F6"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
