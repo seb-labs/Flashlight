@@ -22,6 +22,13 @@ cd /path/to/SimpleFlashlight
 
 APK liegt dann unter: `app/build/outputs/apk/debug/app-debug.apk`
 
+## Download
+Offizieller Release:
+- [v1.0](https://github.com/seb-labs/Flashlight/releases/tag/v1.0)
+
+Die APK liegt derzeit zusätzlich noch im Repo, damit der Release-Workflow sie hochladen kann:
+`APK/SimpleFlashlight-debug.apk`
+
 ## Berechtigungen
 
 | Berechtigung | Zweck |
