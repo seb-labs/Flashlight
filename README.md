@@ -44,3 +44,6 @@ APK liegt dann unter: `app/build/outputs/apk/debug/app-debug.apk`
 - **Timer:** CountDownTimer mit Auto-Off
 - **Bildschirmlicht:** WindowManager.LayoutParams.screenBrightness = 1.0f
 - **Akku:** BroadcastReceiver für ACTION_BATTERY_CHANGED
+
+## Kontakt
+`Flashlight@seblabs.unbox.at`
