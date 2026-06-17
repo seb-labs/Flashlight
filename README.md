@@ -2,6 +2,14 @@
 
 Eine einfache, schnelle und stabile Taschenlampen-App für Android.
 
+## Screenshots
+
+<p align="center">
+  <img src="docs/screenshots/flashlight-ready.png" alt="Simple Flashlight bereit" width="240" />
+  <img src="docs/screenshots/flashlight-display.png" alt="Simple Flashlight Bildschirmlicht an" width="240" />
+  <img src="docs/screenshots/flashlight-sos.png" alt="Simple Flashlight SOS aktiv" width="240" />
+</p>
+
 ## Funktionen
 
 - **LED-Taschenlampe** – Ein-/Ausschalten mit großem Power-Button
